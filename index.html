@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>My First FrontEnd project</title>
+        <!--used to link the css to html files || 
+            rel = relationship b/w current document and linked document ||
+            stylesheet = imports the stylesheet i.e. the css file
+            href = accepts url value and specifies the location of the linked document
+          --> 
+        <link rel = "stylesheet" href="style.css" />
+        </head>
+
+    <body>
+        <!-- <h1>My First hands at frontend in Html-css-js</h1> -->
+
+        <!--<botton> is used to create a clickable button
+           id declared to access the button in the js and css files  
+        First Button here is the text written on the button on the website -->
+        <button type = "button" id="btnAddFolder">First Button</button>
+        
+
+        <!--div is called the Division Tag
+         It helps to separate data in web page and we can create seperate section for particular data or function i.e to group the various tags of html ||
+        id declared to access the divison in the js and css files ||
+    div tag is a block-line element so the next div will appear after a line is left -->
+        <div id="divContainer">
+            </div>
+
+            <!-- <template>  tag is used as a container to hold some html content hidden from the user ie. the content of the tag is hidden from the cliets being stored in the client-side || use JS  from the template and add it to the web page-->
+            <template id="pageTemplates">
+                <!--A division named Folder is created-->
+                <div class ="folder">
+                    <!--<span> is used to highlight a part of the text to be styled by the css and maniulated by the JS || 
+                        here action is a attribute which specifies where to send the data when it is opened || 
+                    It is inline element so the next span tag will come beside the first one no line is left-->
+                    <span action ="edit">edit</span>
+                        <span action = "delete">delete</span>
+                        <!--A division named name is created purpose is a user defined name given ||
+                        It is used to take input from the user for the file name-->
+                        <div purpose = "name"></div>
+                    </div>
+             </template>
+
+             <!--To link JS to HTML-->
+             <!--<script> is used to embed the client-side script(JS) or points to external file through the src attribute ||
+                 src = attibute has url value specifies the url of an external script file ||
+                type = attribute has scripttype value specifies the media type of the script-->
+        <script type = "text/javascript" src = "main4.js"></script>
+        </body>
+    </html>
