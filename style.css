@@ -1,0 +1,71 @@
+.h1{
+    justify-content: center;
+    color: black;
+}
+#header
+{
+    border : 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+#header button{
+    background-color: crimson;
+    font-weight: 600;
+    padding : 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#header button:hover
+{
+    transform: scale(1.05);
+}
+#breadcrumb
+{
+    border : 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+#container
+{
+    border : 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+}
+#app
+{
+    border : 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.folder
+{
+    background-color: crimson;
+    height: 120px;
+    width: 150px;
+    color: white;
+
+    margin:10px;
+    padding: 10px;
+
+    border-radius: 10px;
+
+
+}
+.folder div[purpose=name]
+{
+    margin-top: 80px;
+}
+.folder [action]
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.folder [action] :hover
+{
+color: blue;
+}
